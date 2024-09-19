@@ -1,0 +1,54 @@
+body{
+ background-image: url("./bilder/csm_Amon_Amarth_canvas_1_A_Final_2939a7bdaa.webp");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+
+h1{
+    font-size: 100px;
+    color: white;
+    font-family: "Playfair", serif;
+    margin-left: 300px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 red;
+}
+
+img{
+    margin-left: 250px;
+}
+
+p{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    width: 800px;
+    margin-left: 250px;
+    
+}
+
+h2{
+    font-size: 65px;
+    color: rgb(255, 255, 255);
+    margin-left: 300px;
+}
+
+h3{
+    font-size: 45px;
+    color: white;
+    margin-left: 250px;
+}
+
+a{
+    font-size: 25px;
+    margin-left: 300px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: blue;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    border: 2px solid#fff;
+    border-radius: 10px;
+}
