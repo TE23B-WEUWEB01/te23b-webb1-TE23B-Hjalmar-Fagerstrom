@@ -1,0 +1,52 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* layoutens utseende */
+body{
+    background-color: black;
+}
+
+.kontainer{
+    margin: auto;
+    margin-top: 20px;
+    background-color: red;
+    width: 700px;
+    padding: 40px;
+}
+
+.inlägg{
+    background-color: gray;
+    padding: 50px;
+    margin-bottom: 40px;
+}
+
+
+/* innehållets utseende */
+h1{
+
+}
+
+h2{
+
+}
+
+img{
+    width: 100%;
+}
+
+.datum{
+
+}
+
+p{
+
+}
