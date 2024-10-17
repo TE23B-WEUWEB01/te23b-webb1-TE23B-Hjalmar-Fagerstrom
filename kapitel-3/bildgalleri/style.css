@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Iceland&display=swap');
+
+/* Sidans layout */
+body {
+    color: white;
+}
+
+.kontainer {
+    width: 800px;
+    padding: 40px;
+}
+
+.box {
+    background-color: black;
+    padding: 50px;
+}
+
+/* Sidans innehåll */
+h1 {
+    font-family: "Audiowide", sans-serif;
+}
+
+h2 {
+    font-family: "Iceland", sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-family: "Iceland", sans-serif;
+}
