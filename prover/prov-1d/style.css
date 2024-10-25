@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* sidans utsende */
+
+body {
+    background-image: url("./bilder/bg.jpg");
+    background-size: cover;
+}
+
+div {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 600px;
+    height: 650px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding: 1%;
+    box-shadow: 0 0 5px #bbb;
+}
+
+/* sidans innehåll */
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-family: "Playfair Display";
+    text-align: center;
+    color: #7f0029;
+}
+
+h2 {
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p {
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+a {
+    font-size: 18px;
+    color: #7f0029;
+    text-decoration: none;
+}
+
+img {
+    width: 30%;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption{
+    background-color: #7f0029;
+    border: 1px, solid, #7f0029;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+th {
+    width: 400px;
+    text-align: right
+}
+
+.top-mitt {
+    background-color: #d1d1d1;
+}
+
+tr {
+    padding: auto;
+}
+
+td {
+    border: 1px, solid;
+}
