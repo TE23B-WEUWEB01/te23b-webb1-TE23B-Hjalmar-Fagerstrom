@@ -1,0 +1,95 @@
+/* Enkel CSS-reset */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+
+
+body{
+    background-color: #ccc;
+}
+
+.ruta{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 200px auto;
+    animation: bytFärgForm 6s infinite;
+}
+
+.emoji-1{
+    font-size: 50px;
+    margin: auto;
+    animation: studs 2s infinite;
+    animation-delay: 1s;
+}
+.emoji-2{
+    font-size: 50px;
+    margin: 50px auto;
+    animation: studs 2s infinite;
+    animation-delay: 3s;
+}
+.emoji-3{
+    font-size: 50px;
+    margin: auto;
+    animation: studs 2s infinite;
+    animation-delay: 5s;
+}
+
+@keyframes bytFärgForm {
+    0%{
+        background-color: red;
+        transform: scale(1) translateX(0);
+        opacity: 0;
+    }
+    20%{
+        background-color: blue;
+        transform: scale(2) translateX(100px) translateY(50px);
+        box-shadow: 0 0 10px;
+        border-radius: 25%;
+        opacity: 1;
+    }
+    40%{
+        background-color: yellow;
+        transform: scale(3) translateX(100px) translateY(-50px);
+        box-shadow: 0 0 20px;
+        border-radius: 50%;
+        opacity: 1;
+    }
+    60%{
+        background-color: green;
+        transform: scale(2) translateX(-100px) translateY(-50px);
+        box-shadow: 0 0 10px;
+        border-radius: 25%;
+        opacity: 1;
+    }
+    80%{
+        background-color: pink;
+        transform: scale(3) translateX(-100px) translateY(50px);
+        box-shadow: 0 0 20px;
+        border-radius: 50%;
+        opacity: 1;
+    }
+    100%{
+        background-color: red;
+        transform: scale(1) translateX(0);
+        opacity: 0;
+    }
+}
+
+/* Animera studsande emoji */
+
+@keyframes studs {
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+}
