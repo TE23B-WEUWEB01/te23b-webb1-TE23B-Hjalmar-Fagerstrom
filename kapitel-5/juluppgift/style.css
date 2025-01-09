@@ -57,7 +57,12 @@ h2{
     padding-bottom: 15px;
     color: yellow;
 }
-.kontainer .top a:hover{
+.kontainer .bottom a{
+    text-decoration: none;
+    padding-bottom: 15px;
+    color: yellow;
+}
+.kontainer a:hover{
     text-decoration: underline;
 }
 p{
@@ -65,7 +70,7 @@ p{
 }
 .julen{
     display: flex;
-    width: 800px;
+    width: 1100px;
 }
 .kontainer .bottom figure{
     
@@ -74,11 +79,11 @@ p{
     text-align: center;
 }
 .kontainer .bottom img{
-
+    margin: 10px 0px;
 }
 .text{
-    display: block;
-    margin-top: 20px;
+    margin: 30px 0px;
+    
 }
 .om-jul{
     padding-left: 20px;
