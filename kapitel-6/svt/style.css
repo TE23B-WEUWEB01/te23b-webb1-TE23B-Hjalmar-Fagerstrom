@@ -1,0 +1,46 @@
+/* Enkel CSS-reset */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+
+/* layout */
+body{
+    background-color: #1B1614;
+}
+.kontainer{
+    width: auto;
+    margin: 10px;
+    color: white;
+}
+
+/* sidans huvud */
+.sidhuvud{}
+.sidhuvud img{
+    height: 40px;
+    width: 80px;
+}
+.sidhuvud a{}
+
+/* sidans innehåll */
+.innehall{}
+.innehall .kolumner-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.innehall .kolumner-2 .program{
+    background-color: #211D1B;
+}
+.innehall .kolumner-2 .program img{
+    width: 100%;
+}
+.innehall .kolumner-2 .program .beskrivning{}
+.innehall .kolumner-2 .program h3{}
+.innehall .kolumner-2 .program p{}
