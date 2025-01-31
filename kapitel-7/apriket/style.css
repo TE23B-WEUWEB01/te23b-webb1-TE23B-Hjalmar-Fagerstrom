@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
 /* Enkel CSS-reset */
 html {
   box-sizing: border-box;
@@ -14,10 +16,50 @@ img{
 }
 
 /* sidan */
+body {
+    background-image: url(./bilder/justin-clark-H7JiEU8Slnw-unsplash.jpg);
+    background-repeat: no-repeat;
+}
+.kontainer {
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* bygga layouten */
+.kontainer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: 
+    "sidhuvud sidhuvud"
+    "artiklarna sidebar"
+    "sidfot sidfot";
+}
+header {
+    grid-area: sidhuvud;
+    background-color: rosybrown;
+}
+main {
+    grid-area: artiklarna;
+    background-color: yellowgreen;
+}
+aside {
+    grid-area: sidebar;
+    background-color: magenta;
+}
+footer {
+    grid-area: sidfot;
+    background-color: lightslategray;
+}
 
 /* sidhuvud */
-header {}
-header h1 {}
+header {
+    color: #fff;
+    font-family: "Rubik Moonrocks", serif;
+}
+header h1 {
+    font-size: 80px;
+}
 header h2 {}
 
 /* menyn */
@@ -28,11 +70,12 @@ header nav a:hover {}
 
 /* sidans innehåll - artiklar, text mm */
 main {}
-main h3 {}
-main figure {}
-main figure img {}
-main figure figcaption {}
-main p {}
+main article {}
+main article h3 {}
+main article figure {}
+main article figure img {}
+main article figure figcaption {}
+main article p {}
 
 /* sidobar */
 aside {}
