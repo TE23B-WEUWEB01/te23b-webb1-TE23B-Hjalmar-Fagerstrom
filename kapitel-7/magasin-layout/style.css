@@ -1,0 +1,62 @@
+/* Enkel CSS-reset */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+img {
+width: 100%;
+}
+
+/* layout */
+.kontainer {
+    width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "article article1 article2"
+    "article3 article3 article3"
+    "footer footer footer"
+    ;
+}
+header {
+    background-color: aqua;
+    grid-area: header;
+    min-height: 15vh;
+}
+nav {
+    background-color: bisque;
+    grid-area: nav;
+    min-height: 15vh;
+}
+article {
+    background-color: blue;
+    grid-area: article;
+    min-height: 40vh;
+}
+.article1 {
+    background-color: blueviolet;
+    grid-area: article1;
+}
+.article2 {
+    background-color: brown;
+    grid-area: article2;
+}
+.article3 {
+    background-color: rgb(180, 227, 11);
+    grid-area: article3;
+    min-height: 15vh;
+}
+footer {
+    background-color: darkgreen;
+    grid-area: footer;
+    min-height: 15vh;
+}
