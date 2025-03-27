@@ -1,0 +1,16 @@
+/* body {
+    background: #0000;
+} */
+
+.kontainer {
+    width: 700px;
+    margin: auto;
+    padding: 25px;
+    /* background: #f2ffb0; */
+}
+h1 {
+ 
+}
+p {
+    visibility: hidden;
+}
